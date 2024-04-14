@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'Star Jedi';
+    src: url(star-jedi-9641/StarJedi-DGRW.ttf) format(truetype);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(images/back.jpg);
+}
+header img{
+    max-width: 100%;
+}
+main{
+    margin: 10%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(225, 211, 47);
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.box:hover{
+    border: 4px solid rgb(225, 211, 47);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.box img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+#txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(225, 211, 47);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family:'Star Jedi', sans-serif;
+    font-size: 25px;
+}
+.bottom{
+    color: rgb(225, 211, 47);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Star Jedi', sans-serif;
+}
