@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'Star Jedi';
+    src: url(star-jedi-9641/Starjedi.ttf) format(truetype);
+}
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ header h1{
     font-family:'Star Jedi', sans-serif;
     font-size: 70px;
     position: absolute;
-    left:38%;
+    left:33%;
     bottom: 0px;
     top: 750px
 }
@@ -47,7 +51,6 @@ main{
     font-size: 25px;
     position: absolute;
     top: 450px;
-    left: 20%;
 }
 .box p{
     color: rgb(225, 211, 47);
@@ -55,4 +58,51 @@ main{
     font-size: 10px;
     position: absolute;
     top: 500px
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-spacing: 0 10px;
+    font-family: 'Star Jedi', sans-serif;
+    font-weight: bold;
+}
+table img{
+    height: 50px;
+    width: 50px;
+}
+th {
+    padding: 10px 20px;
+    background: #56433D;
+    color: rgb(225, 211, 47);
+    border-right: 2px solid; 
+    font-size: 0.9em;
+}
+th:first-child {
+    text-align: left;
+}
+th:last-child {
+    border-right: none;
+}
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;
+    color: rgb(225, 211, 47);
+    font-family: 'Courier New', Courier, monospace;
+}
+td:first-child {
+    border-left: 2px solid #56433D;
+    border-right: none;
+}
+td:nth-child(2){
+    text-align: left;
+}
+#ep{
+    font-family: 'Courier New', Courier, monospace;
 }

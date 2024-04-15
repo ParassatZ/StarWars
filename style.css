@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Star Jedi';
-    src: url(star-jedi-9641/StarJedi-DGRW.ttf) format(truetype);
+    src: url(star-jedi-9641/Starjedi.ttf) format(truetype);
 }
 body{
     margin: 0;
@@ -25,7 +25,7 @@ main{
     height: 350px;
     border: 2px solid rgb(225, 211, 47);
     border-radius: 10px;
-    transition: transform 0.2s;
+    transition: transform 0.4s;
 }
 .box:hover{
     border: 4px solid rgb(225, 211, 47);
@@ -57,4 +57,10 @@ main{
     text-align: center;
     font-size: 25px;
     font-family: 'Star Jedi', sans-serif;
+}
+#hello{
+    text-align: center;
+    font-family: 'Star Jedi';
+    color: rgb(225, 211, 47);
+    font-size: 25px;
 }

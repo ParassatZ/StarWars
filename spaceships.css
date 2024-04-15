@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'Star Jedi';
+    src: url(star-jedi-9641/Starjedi.ttf) format(truetype);
+}
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ header h1{
     font-family:'Star Jedi', sans-serif;
     font-size: 70px;
     position: absolute;
-    left:38%;
+    left:36%;
     bottom: 0px;
     top: 750px
 }
@@ -47,7 +51,6 @@ main{
     font-size: 25px;
     position: absolute;
     top: 350px;
-    left: 20%;
 }
 .box p{
     color: rgb(225, 211, 47);
