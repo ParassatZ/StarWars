@@ -13,3 +13,5 @@ spaceships.css - CSS файл для spacehips.html
 search.js - функция поиска из таблицы которую я заполнил сам
 fetchPlanets.js - Функция загрузки данных с api и поиска планет
 fecthCharacters.js - Функция загрузки данных с api и поиска персонажей
+
+Ссылка на страницу: https://parassatz.github.io/StarWars/
